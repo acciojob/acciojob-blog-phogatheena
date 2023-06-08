@@ -8,6 +8,69 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!DOCTYPE html>
+<html>
+<head>
+    <title>Accio Job Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .blog-card {
+            width: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .blog-card img {
+            height: 200px;
+        }
+
+        .blog-card h3 {
+            margin-top: 10px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .blog-card p {
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <marquee direction="left" scrollamount="5">
+        <h1>Welcome to Acciojobs!</h1>
+    </marquee>
+    <div class="blog-container">
+        <div class="blog-card" onclick="location.href='https://acciojob.com/blog/'">
+            <img src="Image_one" alt="Blog Image 1">
+            <h3>Brute Force vs. Optimization</h3>
+            <p>We can say that optimization is one step further than the brute-force method of problem solving…</p>
+        </div>
+        <div class="blog-card" onclick="location.href='https://acciojob.com/blog/brute-force-vs-optimization/'">
+            <img src="Image_two" alt="Blog Image 2">
+            <h3>DSA vs. Competitive Programming</h3>
+            <p>DSA or Competitive programming? What is better for you? Questions such as these often put you in a…</p>
+        </div>
+        <div class="blog-card" onclick="location.href='https://acciojob.com/blog/dsa-vs-competitive-programming/'">
+            <img src="Image_three" alt="Blog Image 3">
+            <h3>10 Tips to Optimize Your LinkedIn Profile and Attract Recruiters</h3>
+            <p>As a job seeker, you may wonder how to make your LinkedIn profile stand out to recruiters. Your LinkedIn…</p>
+        </div>
+    </div>
+</body>
+</html>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
